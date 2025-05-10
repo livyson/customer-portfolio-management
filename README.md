@@ -1,119 +1,101 @@
-# Customer Portfolio Management System
+<!-- README.md for Customer Portfolio Management System -->
 
-A modern web application for managing customer portfolios, built with React, Node.js, Express, and PostgreSQL.
+<p align="center">
+  <a href="https://github.com/yourusername/customer-portfolio-management/actions/workflows/ci.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/customer-portfolio-management/ci.yml?style=for-the-badge&color=blue&label=Build" alt="Build Status" />
+  </a>
+  <a href="https://www.npmjs.com/package/customer-portfolio-management">
+    <img src="https://img.shields.io/npm/v/customer-portfolio-management?style=for-the-badge&color=orange&label=Version" alt="NPM Version" />
+  </a>
+  <a href="https://github.com/yourusername/customer-portfolio-management/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/yourusername/customer-portfolio-management?style=for-the-badge&color=green" alt="License" />
+  </a>
+</p>
 
-## Features
+# 🌟 Customer Portfolio Management System
 
-- Customer portfolio creation and management
-- Real-time portfolio tracking
-- Secure authentication and authorization
-- Responsive design for all devices
-- Data visualization and analytics
-- RESTful API architecture
+Uma **aplicação web moderna** para gerenciar carteiras de clientes, com **dashboard interativo**, **autenticação segura** e **gráficos em tempo real**.
 
-## Tech Stack
+---
 
-- **Frontend:**
-  - React.js
-  - TypeScript
-  - Material-UI
-  - Redux Toolkit
-  - React Query
-  - Chart.js for data visualization
+## 🎨 Demonstration
+![Dashboard Demo](https://via.placeholder.com/800x400/FFFAE5/333333?text=Dashboard+Demo)
 
-- **Backend:**
-  - Node.js
-  - Express.js
-  - TypeScript
-  - PostgreSQL
-  - Prisma ORM
-  - JWT Authentication
+---
 
-## Prerequisites
+## ✨ Features
 
-- Node.js (v18 or higher)
-- PostgreSQL (v14 or higher)
-- npm or yarn package manager
+- 🚀 **Cadastro e gestão** de carteiras de clientes
+- 🌐 **Monitoramento em tempo real** de portfólios
+- 🔒 **Autenticação JWT** e autorização granular
+- 📱 **Design responsivo** (mobile & desktop)
+- 📊 **Visualização de dados** com gráficos dinâmicos
+- 🔄 **API RESTful** escalável
 
-## Getting Started
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/customer-portfolio-management.git
-   cd customer-portfolio-management
-   ```
+## 🛠️ Tech Stack
 
-2. Install dependencies:
-   ```bash
-   # Install backend dependencies
-   cd backend
-   npm install
+| Frontend                   | Backend                            | Database        |
+| -------------------------- | ---------------------------------- | --------------- |
+| React.js + TypeScript      | Node.js + TypeScript               | PostgreSQL      |
+| Material-UI                | Express.js                         | Prisma ORM      |
+| Redux Toolkit              | JWT Authentication                 |                 |
+| React Query                |                                    |                 |
+| Chart.js                   |                                    |                 |
 
-   # Install frontend dependencies
-   cd ../frontend
-   npm install
-   ```
+---
 
-3. Set up environment variables:
-   - Copy `.env.example` to `.env` in both frontend and backend directories
-   - Update the variables with your configuration
+## ⚙️ Pré-requisitos
 
-4. Set up the database:
-   ```bash
-   cd backend
-   npx prisma migrate dev
-   ```
+- **Node.js** v18+
+- **PostgreSQL** v14+
+- **npm** ou **yarn**
 
-5. Start the development servers:
-   ```bash
-   # Start backend server (from backend directory)
-   npm run dev
+---
 
-   # Start frontend server (from frontend directory)
-   npm run dev
-   ```
+## 🚀 Quick Start
 
-The application will be available at:
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:8000
+```bash
+# 1. Clone o repositório
+git clone https://github.com/yourusername/customer-portfolio-management.git
+cd customer-portfolio-management
 
-## Project Structure
+# 2. Instale dependências (frontend + backend)
+cd backend && npm install
+cd ../frontend && npm install
 
-```
-customer-portfolio-management/
-├── frontend/               # React frontend application
-│   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── pages/        # Page components
-│   │   ├── services/     # API services
-│   │   ├── store/        # Redux store
-│   │   └── utils/        # Utility functions
-│   └── public/           # Static files
-│
-├── backend/               # Node.js backend application
-│   ├── src/
-│   │   ├── controllers/  # Route controllers
-│   │   ├── models/       # Database models
-│   │   ├── routes/       # API routes
-│   │   ├── services/     # Business logic
-│   │   └── utils/        # Utility functions
-│   └── prisma/          # Database schema and migrations
-│
-└── docs/                 # Documentation
-```
+# 3. Configure variáveis de ambiente
+#    - Copie .env.example para .env em ambas as pastas
+#    - Atualize conforme sua configuração
 
-## Contributing
+# 4. Migre o banco de dados
+cd backend
+npx prisma migrate dev
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+# 5. Inicie os servidores
+git root=$(pwd)
+# Backend
+cd $git_root/backend && npm run dev
+# Frontend
+cd $git_root/frontend && npm run dev
 
-## License
+# Acesse:
+# Frontend: http://localhost:3000
+# API:      http://localhost:8000
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Support
+---
 
-For support, please open an issue in the GitHub repository or contact the maintainers.
+## 🤝 Contributing
+
+1. Faça um fork
+2. Crie uma branch (`git checkout -b feat/nova-feature`)
+3. Commit suas mudanças (`git commit -m "✨ add nova feature"`)
+4. Push (`git push origin feat/nova-feature`)
+5. Abra um Pull Request
+
+---
+
+## 📜 License
+MIT © [Livyson](https://github.com/livyson)
