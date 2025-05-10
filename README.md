@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="https://github.com/livyson/customer-portfolio-management/actions/workflows/ci.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/customer-portfolio-management/ci.yml?style=for-the-badge&color=blue&label=Build" alt="Build Status" />
+    <img src="https://img.shields.io/github/actions/workflow/status/livyson/customer-portfolio-management/ci.yml?style=for-the-badge&color=blue&label=Build" alt="Build Status" />
   </a>
   <a href="https://www.npmjs.com/package/customer-portfolio-management">
     <img src="https://img.shields.io/npm/v/customer-portfolio-management?style=for-the-badge&color=orange&label=Version" alt="NPM Version" />
   </a>
   <a href="https://github.com/livyson/customer-portfolio-management/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/yourusername/customer-portfolio-management?style=for-the-badge&color=green" alt="License" />
+    <img src="https://img.shields.io/github/license/livyson/customer-portfolio-management?style=for-the-badge&color=green" alt="License" />
   </a>
 </p>
 
