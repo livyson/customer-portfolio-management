@@ -1,13 +1,13 @@
 <!-- README.md for Customer Portfolio Management System -->
 
 <p align="center">
-  <a href="https://github.com/yourusername/customer-portfolio-management/actions/workflows/ci.yml">
+  <a href="https://github.com/livyson/customer-portfolio-management/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/yourusername/customer-portfolio-management/ci.yml?style=for-the-badge&color=blue&label=Build" alt="Build Status" />
   </a>
   <a href="https://www.npmjs.com/package/customer-portfolio-management">
     <img src="https://img.shields.io/npm/v/customer-portfolio-management?style=for-the-badge&color=orange&label=Version" alt="NPM Version" />
   </a>
-  <a href="https://github.com/yourusername/customer-portfolio-management/blob/main/LICENSE">
+  <a href="https://github.com/livyson/customer-portfolio-management/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/yourusername/customer-portfolio-management?style=for-the-badge&color=green" alt="License" />
   </a>
 </p>
@@ -58,7 +58,7 @@ Uma **aplicação web moderna** para gerenciar carteiras de clientes, com **dash
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/yourusername/customer-portfolio-management.git
+git clone https://github.com/livyson/customer-portfolio-management.git
 cd customer-portfolio-management
 
 # 2. Instale dependências (frontend + backend)
@@ -99,3 +99,9 @@ cd $git_root/frontend && npm run dev
 
 ## 📜 License
 MIT © [Livyson](https://github.com/livyson)
+
+---
+
+## 📧 Contact
+
+✉️ seu.email@dominio.com
