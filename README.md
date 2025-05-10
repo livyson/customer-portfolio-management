@@ -29,7 +29,7 @@ Uma **aplicação web moderna** para gerenciar carteiras de clientes, com **dash
 - 🌐 **Monitoramento em tempo real** de portfólios
 - 🔒 **Autenticação JWT** e autorização granular
 - 📱 **Design responsivo** (mobile & desktop)
-- 📊 **Visualização de dados** com gráficos dinâmicos
+- 📊 **Visualização de dados** com gráficos dinâmicos e com dados relevantes
 - 🔄 **API RESTful** escalável
 
 ---
